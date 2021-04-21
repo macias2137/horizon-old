@@ -1,0 +1,35 @@
+.menuitem
+    //width: 12.5%
+    height: 33.33%
+    flex: 1
+    color: $white
+    margin: 0 2rem
+    display: flex
+    flex-direction: column
+    //justify-content: center
+    align-items: center
+    z-index: 2
+
+    &__shape
+        background-color: $light-blue
+        width: $menuitem-circle-radius * 2
+        height: $menuitem-circle-radius
+        border-top-left-radius: $menuitem-circle-radius * 2
+        border-top-right-radius: $menuitem-circle-radius * 2
+        box-shadow: .75rem 0 $dark-blue
+        display: flex
+        justify-content: center
+        align-items: flex-end
+
+
+    &__text
+        color: $white
+        margin: 0
+        padding-bottom: 0.5rem
+
+    &__image
+        width: 50%
+        height: auto
+        position: relative
+        top: 2rem
+
